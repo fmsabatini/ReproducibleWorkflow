@@ -257,8 +257,6 @@ img {
 
 - Imagine you are preparing a paper. You have all your scripts ready to reproduce the analysis and figures  
 
-<v-click>
-
 - Shortly before submitting, an evil coauthors comes out with the idea 'What if we tested a slighlty different version of the same analysis'?  
 
 - You are not sure this is going to improve your work, but you want to try. Better not to touch your running code, though  
@@ -266,8 +264,6 @@ img {
 - You make a copy of all scripts, maybe in a new directory, and start working on the changes
 
 - If the new change works, you'll have a duplicated version of your script to integrate in your main workflow. If it doesn't you have to go back to the old files.
-
-</v-click>
 
 <v-click>
 
@@ -502,8 +498,9 @@ img {
 <br>
 
 <div class="grid grid-cols-2 gap-4">
-<div>
 <v-click>
+<div>
+
 
 ```bash
 # create new branch called 'Alternative'
@@ -513,11 +510,12 @@ git checkout Alternative
 ```
 
 * All the commits done in the new branch, won't affect the master branch. 
-</v-click>
-</div>
 
-<div> 
+</div>
+</v-click>
+
 <v-click>
+<div> 
 
 ```bash
 # move the pointer to the master
@@ -528,8 +526,9 @@ git merge Alternative
 
 * Once the new branch is ready, you can merge it with the master
 
-</v-click>
 </div>
+</v-click>
+
 </div>
 
 
@@ -599,6 +598,3 @@ img {
 
 ## https://github.com/fmsabatini/KateRMarkdown
 
----
-
-# What's wrong?
