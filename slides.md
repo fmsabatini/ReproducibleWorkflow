@@ -471,6 +471,8 @@ git log
 </div>
 </div>
 
+</v-click>
+
 
 ---
 
