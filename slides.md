@@ -217,20 +217,20 @@ img {
 <br>
 1) Edit code
 <br><br>
-<img src="https://www.wikihow.com/images/thumb/3/34/Pack-Liquids-for-Shipping-Step-4-Version-2.jpg/aid9643066-v4-728px-Pack-Liquids-for-Shipping-Step-4-Version-2.jpg" alt="Add" style="height: 25%">
-<br>
-2) Add (to the box)
-<br>
-</div>
-<div>
-
 <img src="https://www.wikihow.com/images/thumb/5/58/Pack-Liquids-for-Shipping-Step-6-Version-2.jpg/aid9643066-v4-728px-Pack-Liquids-for-Shipping-Step-6-Version-2.jpg" alt="Add" style="height: 25%">
 <br>
 3) Commit
+<br>
+</div>
+
+<div>
+<img src="https://www.wikihow.com/images/thumb/3/34/Pack-Liquids-for-Shipping-Step-4-Version-2.jpg/aid9643066-v4-728px-Pack-Liquids-for-Shipping-Step-4-Version-2.jpg" alt="Add" style="height: 25%">
+<br>
+2) Add (to the box)
 <br><br>
 <img src="https://www.wikihow.com/images/thumb/5/52/Pack-Liquids-for-Shipping-Step-20-Version-2.jpg/aid9643066-v4-728px-Pack-Liquids-for-Shipping-Step-20-Version-2.jpg" alt="Add" style="height: 25%">
 <br>
-3) Push (to github)
+4) Push (to github)
 <br>
 
 </div>
