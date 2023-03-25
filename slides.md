@@ -315,7 +315,7 @@ You have just created your first git (local) repository.
 <div class="grid grid-cols-2 gap-4">
 <div>
 
-<img src="pics/Fig1.PNG" alt="Rmarkdown1" style="height: 80%">
+<img src="https://github.com/fmsabatini/ReproducibleWorkflow/blob/ecdf6cb5da5c90e2c18cf955973118ff46f29a85/pics/Fig1.PNG" alt="Rmarkdown1" style="height: 80%">
 
 </div>
 
@@ -323,7 +323,7 @@ You have just created your first git (local) repository.
 
 <v-click>
 
-<img src="pics/Fig2.PNG" alt="Rmarkdown2" style="height: 80%">
+<img src="https://github.com/fmsabatini/ReproducibleWorkflow/blob/ecdf6cb5da5c90e2c18cf955973118ff46f29a85/pics/Fig2.PNG" alt="Rmarkdown2" style="height: 80%">
 </v-click>
 
 </div>
@@ -381,7 +381,7 @@ img {
   margin-right: auto;
 }
 </style>
-<img src="pics/Fig3.png" alt="Rmarkdown2" style="height: 90%">
+<img src="https://github.com/fmsabatini/ReproducibleWorkflow/blob/ecdf6cb5da5c90e2c18cf955973118ff46f29a85/pics/Fig3.png" alt="Rmarkdown2" style="height: 90%">
 
 --- 
 
