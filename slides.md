@@ -450,9 +450,9 @@ git log
 
 <br>
 
+<v-click>
 
 <div class="grid grid-cols-[33%,33%,33%]">
-<v-click>
 <div>
 <img src="https://www.wikihow.com/images/thumb/1/1b/Pack-Liquids-for-Shipping-Step-3-Version-2.jpg/v4-460px-Pack-Liquids-for-Shipping-Step-3-Version-2.jpg.webp" alt="Add" style="height: 50%">
 <br><center>1) Edit code</center>
@@ -469,7 +469,6 @@ git log
 <br>
 <center>3) Commit</center>
 </div>
-</v-click>
 </div>
 
 
