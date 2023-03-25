@@ -113,7 +113,7 @@ img {
 
 ---
 
-# What's Markdown?
+# What's RMarkdown?
 <style>
 img {
   display: block;
@@ -167,6 +167,18 @@ R markdown is a simple and easy to use plain text language used to combine your 
 <img src="https://git-scm.com/book/en/v2/images/deltas.png" alt="Git" style="width: 100%">
 
 
+---
+
+# Commit history
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+<img src="https://cbea.ms/content/images/size/w2000/2021/01/git_commit_2x.png
+" alt="history" style="width: 80%">
 
 
 
@@ -238,18 +250,6 @@ img {
 
 <img src="https://pbs.twimg.com/media/CaZdopQUYAE5Vn3.jpg" alt="InCaseOfFire" style="width: 70%">
 
----
-
-# Commit history
-<style>
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-</style>
-<img src="https://cbea.ms/content/images/size/w2000/2021/01/git_commit_2x.png
-" alt="history" style="width: 80%">
 
 ---
 
