@@ -187,7 +187,7 @@ img {
 
 ---
 
-# Add - Commit - Push
+# Add - Commit - Push (1)
 
 <br><br>
 <img src="https://uidaholib.github.io/get-git/images/workflow.png
@@ -196,7 +196,7 @@ img {
 
 ---
 
-# Add - Commit - Push
+# Add - Commit - Push (2)
 
 <div class="grid grid-cols-2 gap-4">
 <div>
@@ -253,7 +253,7 @@ img {
 
 ---
 
-# Branching
+# Branching (1)
 
 - Imagine you are preparing a paper. You have all your scripts ready to reproduce the analysis and figures  
 
@@ -266,17 +266,18 @@ img {
 - If the new change works, you'll have a duplicated version of your script to integrate in your main workflow. If it doesn't you have to go back to the old files.
 
 <v-click>
+<div>
 
 ## This is history in Git 
 
 * All you need to do, is creating a **branch** and keep working on your files, without worrying. You can always go back to where you were if the new idea doesn't work
-
+</div>
 </v-click>
 
 
 ---
 
-# Branching
+# Branching (2)
 
 <style>
 img {
@@ -421,7 +422,7 @@ You have just created your first git (local) repository.
 
 ---
 
-# Add the markdown file and commit
+# Add the markdown file and commit (1)
 
 <style>
 img {
@@ -472,7 +473,7 @@ git log
 
 ---
 
-# Add the markdown file and commit
+# Add the markdown file and commit (2)
 <style>
 img {
   display: block;
@@ -485,7 +486,7 @@ img {
 
 ---
 
-# Branching
+# Branching (3)
 
 <style>
 img {
