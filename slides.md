@@ -16,14 +16,43 @@ francescomaria.sabatini@unibo.it
 
 ---
 
+# Follow along
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+<br>
+<br>
+
+<img src="https://github.com/fmsabatini/ReproducibleWorkflow/blob/main/pics/QRcode.png?raw=true" alt="Markdown" style="width: 40%" class="center">
+<br>
+
+
+<font size="+3"><center>
+<a href="https://fmsabatini.github.io/ReproducibleWorkflow/1">
+https://fmsabatini.github.io/ReproducibleWorkflow/1
+</a>
+</center></font>
+
+
+
+---
+
 # Why Reproducible workflows?
 
 <Youtube id="s3JldKoA0zw" style="display: block; margin: auto; width: 80%; height: 80%"/>
 <br>
 
-<center> https://www.youtube.com/watch?v=s3JldKoA0zw
-</center>
 
+<font size="+3"><center>
+<a href="https://www.youtube.com/watch?v=s3JldKoA0zw">
+https://www.youtube.com/watch?v=s3JldKoA0zw
+</a>
+</center></font>
 
 ---
 
@@ -32,6 +61,7 @@ francescomaria.sabatini@unibo.it
 
 <br>
 <br>
+
 
 1. Clearly separate, label, and **document** all data, files, and operations that occur on data and files  
 
@@ -43,7 +73,10 @@ francescomaria.sabatini@unibo.it
 <br>
 <br>
 <br>
-
+<br>
+<br>
+<br>
+<br>
 
 [^1]: http://www.practicereproducibleresearch.org/core-chapters/3-basic.html
 
@@ -74,8 +107,9 @@ img {
 <br><br>
 <img src="https://cdn.worldvectorlogo.com/logos/git-bash.svg" alt="Git" style="width: 75%" class="center">
 
+</div>a
 </div>
-</div>
+
 
 ---
 
@@ -126,7 +160,7 @@ R markdown is a simple and easy to use plain text language used to combine your 
 </div>
 </div>
 
---- 
+---
 
 # Version Control
 
@@ -150,20 +184,6 @@ img {
 
 <img src="https://devmountain.com/wp-content/uploads/2022/01/Gitvs_Github-1a-1.jpg" alt="GitvsgithubRmarkdown" style="width: 70%">
 
-
----
-
-# We're committed
-
-<style>
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-</style>
-
-<img src="https://pbs.twimg.com/media/CaZdopQUYAE5Vn3.jpg" alt="InCaseOfFire" style="width: 70%">
 
 ---
 
@@ -204,8 +224,76 @@ img {
 </div>
 </div>
 
+---
 
---- 
+# We're committed
+
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+<img src="https://pbs.twimg.com/media/CaZdopQUYAE5Vn3.jpg" alt="InCaseOfFire" style="width: 70%">
+
+---
+
+# Commit history
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+<img src="https://cbea.ms/content/images/size/w2000/2021/01/git_commit_2x.png
+" alt="history" style="width: 80%">
+
+---
+
+# Branching
+
+- Imagine you are preparing a paper. You have all your scripts ready to reproduce the analysis and figures  
+
+<v-click>
+
+- Shortly before submitting, an evil coauthors comes out with the idea 'What if we tested a slighlty different version of the same analysis'?  
+
+- You are not sure this is going to improve your work, but you want to try. Better not to touch your running code, though  
+
+- You make a copy of all scripts, maybe in a new directory, and start working on the changes
+
+- If the new change works, you'll have a duplicated version of your script to integrate in your main workflow. If it doesn't you have to go back to the old files.
+
+</v-click>
+
+<v-click>
+
+## This is history in Git 
+
+* All you need to do, is creating a **branch** and keep working on your files, without worrying. You can always go back to where you were if the new idea doesn't work
+
+</v-click>
+
+
+---
+
+# Branching
+
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+<img src="https://www.nobledesktop.com/image/gitresources/git-branches-merge.png" alt="branch"  class="center" style="width: 90%">
+<br>
+
+
+---
 
 # Install Git
 
@@ -256,7 +344,7 @@ git help [command]
 
 # Configure Git
 
-## Your turn
+<br>
 <br>
 
 ```bash {1-2|all}
@@ -267,6 +355,10 @@ git config --global user.email "ralf.mueller@uni-freiburg.de"
 # configure aliases
 git config --global alias.unstage 'reset HEAD --'
 git config --global alias.lol 'log --graph --decorate --oneline --all'
+
+
+# WINDOWS ONLY: let git handle line endings
+git config --global core.autocrlf true
 ```
 
 
@@ -315,7 +407,8 @@ You have just created your first git (local) repository.
 <div class="grid grid-cols-2 gap-4">
 <div>
 
-<img src="https://github.com/fmsabatini/ReproducibleWorkflow/blob/ecdf6cb5da5c90e2c18cf955973118ff46f29a85/pics/Fig1.PNG" alt="Rmarkdown1" style="height: 80%">
+<img src="https://github.com/fmsabatini/ReproducibleWorkflow/blob/ecdf6cb5da5c90e2c18cf955973118ff46f29a85/pics/Fig1.PNG?raw=true" alt="Rmarkdown1" style="height: 80%">
+
 
 </div>
 
@@ -323,16 +416,24 @@ You have just created your first git (local) repository.
 
 <v-click>
 
-<img src="https://github.com/fmsabatini/ReproducibleWorkflow/blob/ecdf6cb5da5c90e2c18cf955973118ff46f29a85/pics/Fig2.PNG" alt="Rmarkdown2" style="height: 80%">
+<img src="https://github.com/fmsabatini/ReproducibleWorkflow/blob/ecdf6cb5da5c90e2c18cf955973118ff46f29a85/pics/Fig2.PNG?raw=true" alt="Rmarkdown2" style="height: 80%">
 </v-click>
 
 </div>
 </div>
 
 
---- 
+---
 
 # Add the markdown file and commit
+
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
 
 * Now that we made a change in the repository we can stage (=add) the changed file and commit it
 
@@ -343,7 +444,7 @@ git status
 # Stage your change
 git add myproject.Rmd
 
-# Commit your change 
+# Commit your change and add a message -m
 git commit -m "This is my first commit!" 
 
 # Check what happened to your repo history
@@ -351,22 +452,24 @@ git log
 ```
 
 <v-click>
+<br>
 
 <div class="grid grid-cols-[33%,33%,33%]">
 <div>
 <img src="https://www.wikihow.com/images/thumb/1/1b/Pack-Liquids-for-Shipping-Step-3-Version-2.jpg/v4-460px-Pack-Liquids-for-Shipping-Step-3-Version-2.jpg.webp" alt="Add" style="height: 50%">
-1) Edit code
+<br><center>1) Edit code</center>
 </div>
 
 <div>
 <img src="https://www.wikihow.com/images/thumb/3/34/Pack-Liquids-for-Shipping-Step-4-Version-2.jpg/aid9643066-v4-728px-Pack-Liquids-for-Shipping-Step-4-Version-2.jpg" alt="box" style="height: 50%">
-
-2) Add (to the box)
+<br>
+<center>2) Add (to the box)</center>
 </div>
 
 <div>
 <img src="https://www.wikihow.com/images/thumb/5/58/Pack-Liquids-for-Shipping-Step-6-Version-2.jpg/aid9643066-v4-728px-Pack-Liquids-for-Shipping-Step-6-Version-2.jpg" alt="wrap" style="height: 50%">
-3) Commit
+<br>
+<center>3) Commit</center>
 </div>
 </div>
 </v-click>
@@ -381,34 +484,8 @@ img {
   margin-right: auto;
 }
 </style>
-<img src="https://github.com/fmsabatini/ReproducibleWorkflow/blob/ecdf6cb5da5c90e2c18cf955973118ff46f29a85/pics/Fig3.png" alt="Rmarkdown2" style="height: 90%">
+<img src="https://github.com/fmsabatini/ReproducibleWorkflow/blob/ecdf6cb5da5c90e2c18cf955973118ff46f29a85/pics/Fig3.png?raw=true" alt="Rmarkdown2" style="height: 90%">
 
---- 
-
-# Branching
-
-
-<v-clicks>
-
-- Imagine you are preparing a paper. You have all your scripts ready to reproduce the analysis and figures  
-
-- Shortly before submitting, an evil coauthors comes out with the idea 'What if we tested a slighlty different version of the same analysis'?  
-
-- You are not sure this is going to improve your work, but you want to try. Better not to touch your running code, though  
-
-- You make a copy of all scripts, maybe in a new directory, and start working on the changes
-
-- If the new change works, you'll have a duplicated version of your script. If it doesn't you have to go back to the old file.
-
-</v-clicks>
-
-<v-click>
-
-## This is history in Git 
-
-* All you need to do, is create a **branch**, and you can simply keep working on your files, without worrying. You can always go back to where you were, if the new idea doesn't work
-
-</v-click>
 
 ---
 
@@ -435,7 +512,7 @@ git branch Alternative
 git checkout Alternative
 ```
 
-* All the new commits be done in the new branch, won't affect the master branch. 
+* All the commits done in the new branch, won't affect the master branch. 
 </v-click>
 </div>
 
@@ -457,11 +534,11 @@ git merge Alternative
 
 
 
--- 
+---
 
 # 14 Commands to rule them all
 
-```bash {1|1-9|1-13}
+```bash {1|1-9|1-13|all}
 git help --all
 
 git init            #Create an empty Git repository or reinitialize an existing one
@@ -481,4 +558,47 @@ git pull            #Fetch from and integrate with another repository or a local
 git fetch           #Download objects and refs from another repository
 ```
 
+---
 
+# Resources
+
+<div class="grid grid-cols-2 gap-4">
+
+<div> 
+<img src="https://yt3.googleusercontent.com/dW6to0x5Crmeh7yi-YPLcQRqVrBtx2BSh8eoKTJbE8NbjloQ0sqlmdszIlxokJU_97-ndOt_=s900-c-k-c0x00ffffff-no-rj" alt="Rmarkdown2" style="height: 50%">
+
+https://www.w3schools.com/git/default.asp?remote=github
+
+</div>
+
+<div>
+<img src="https://git-scm.com/images/progit2.png" alt="Rmarkdown2" style="height: 50%">
+
+https://git-scm.com/book/en/v2
+
+</div>
+</div>
+
+
+---
+
+# Time for some cats
+
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+<img src="https://github.com/fmsabatini/KateRMarkdown/blob/main/figures/MindBlowing.jpg?raw=true" alt="mind"  class="center" style="width: 500px">
+<br>
+
+* Time for the second course of the menu: RMarkdown. Warning: There will be many cats
+
+## https://github.com/fmsabatini/KateRMarkdown
+
+---
+
+# What's wrong?
