@@ -257,7 +257,7 @@ img {
 
 - Imagine you are preparing a paper. You have all your scripts ready to reproduce the analysis and figures  
 
-- Shortly before submitting, an evil coauthors comes out with the idea 'What if we tested a slighlty different version of the same analysis'?  
+- Shortly before submitting, an evil coauthor comes out with the idea 'What if we tested a slighlty different version of the same analysis'?  
 
 - You are not sure this is going to improve your work, but you want to try. Better not to touch your running code, though  
 
@@ -560,6 +560,106 @@ git push            #Update remote refs along with associated objects
 git pull            #Fetch from and integrate with another repository or a local branch
 git fetch           #Download objects and refs from another repository
 ```
+
+---
+
+# Remotes (1)
+
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+A remote in Git is a common repository that all team members use to exchange their changes. In most cases, such a remote repository is stored on a code hosting service like GitHub or on an internal server. 
+
+
+* You first need to create a remote repo, e.g., on GitHub (**Registration needed**)
+
+
+<img src="https://github.com/fmsabatini/ReproducibleWorkflow/blob/main/pics/Fig4_CreateRepo.png?raw=true" alt="branch"  class="center" style="height: 70%">
+<br>
+
+---
+
+# Remotes (2)
+
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+A remote in Git is a common repository that all team members use to exchange their changes. In most cases, such a remote repository is stored on a code hosting service like GitHub or on an internal server. 
+
+
+* You first need to create a remote repo, e.g., on GitHub (**Registration needed**)
+
+
+<img src="https://github.com/fmsabatini/ReproducibleWorkflow/blob/main/pics/Fig5_CreateRepo2.png?raw=true" alt="branch"  class="center" style="height: 70%">
+<br>
+
+
+---
+
+# Remotes (3)
+
+
+* Now you can set-up the 'remote' you want synchronize your local repository with. 
+* The remote is traditionally called 'origin'
+
+<div class="grid grid-cols-2 gap-4">
+<div>
+<img src="https://github.com/fmsabatini/ReproducibleWorkflow/blob/main/pics/Fig6_CreateRepo3.png?raw=true" alt="branch"  class="center" style="height: 100%">
+</div>
+
+<div> 
+
+```bash
+# …or push an existing repository 
+#                 from the command line
+
+
+# Setup a remote called origin
+git remote add origin 
+     \ https://github.com/fmsabatini/MyFancyRepo.git
+
+# name main branch as 'main' 
+#             [instead of the default 'master']
+git branch -M main
+
+# push all local commits in the 'main' 
+#                 branch to the remote
+git push -u origin main
+```
+
+* in your Rstudio termina, go to the folder of your repository, and type the instructions above 
+
+</div>
+</div>
+
+
+--- 
+
+# Push and Pull
+
+
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+<img src="https://s3.ap-south-1.amazonaws.com/s3.studytonight.com/tutorials/uploads/pictures/1622436019-103268.png" alt="branch"  class="center" style="height: 80%">
+<br>
+
+## git pull  ==  git fetch + git merge
 
 ---
 
