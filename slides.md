@@ -6,7 +6,7 @@ theme: dracula
 
 # Reproducible workflows in research practice  
 ## A gift to your future self  
-Freiburg, March 30, 2023  
+Freiburg, May 2, 2023  
 <br>
 Dr. Francesco Maria Sabatini  
 francescomaria.sabatini@unibo.it  
@@ -660,6 +660,35 @@ img {
 <br>
 
 ## git pull  ==  git fetch + git merge
+
+---
+
+# Clone and Fork
+
+
+
+
+---
+
+# Issues
+
+
+
+
+---
+
+# Pull requests
+
+
+
+
+
+---
+
+# Projects and Tasks
+
+
+
 
 ---
 
