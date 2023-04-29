@@ -255,15 +255,15 @@ img {
 
 # Branching (1)
 
-- Imagine you are preparing a paper. You have all your scripts ready to reproduce the analysis and figures  
+- Imagine you are preparing a paper. You have **all your scripts ready** to reproduce the analysis and figures  
 
-- Shortly before submitting, an evil coauthor comes out with the idea 'What if we tested a slighlty different version of the same analysis'?  
+- Shortly before submitting, an evil coauthor comes out with the idea '**What if we tested** a slighlty different version of the same analysis'?  
 
-- You are not sure this is going to improve your work, but you want to try. Better not to touch your running code, though  
+- You are not sure this is going to improve your work, but you want to try. Better **not to touch your running code**, though  
 
-- You make a copy of all scripts, maybe in a new directory, and start working on the changes
+- You make a **copy of all scripts**, maybe in a new directory, and start working on the changes
 
-- If the new change works, you'll have a duplicated version of your script to integrate in your main workflow. If it doesn't you have to go back to the old files.
+- If the new change works, you'll have a **duplicated version** of your script **to integrate** in your main workflow. If it doesn't you have to go back to the old files.
 
 <v-click>
 <div>
@@ -573,7 +573,7 @@ img {
 }
 </style>
 
-A remote in Git is a common repository that all team members use to exchange their changes. In most cases, such a remote repository is stored on a code hosting service like GitHub or on an internal server. 
+A remote in Git is a common repository that all team members use to exchange their edits. In most cases, such a remote repository is stored on a code hosting service like GitHub or on an internal server. 
 
 
 * You first need to create a remote repo, e.g., on GitHub (**Registration needed**)
@@ -594,10 +594,10 @@ img {
 }
 </style>
 
-A remote in Git is a common repository that all team members use to exchange their changes. In most cases, such a remote repository is stored on a code hosting service like GitHub or on an internal server. 
+A remote in Git is a common repository that all team members use to exchange their edits. In most cases, such a remote repository is stored on a code hosting service like GitHub or on an internal server. 
 
 
-* You first need to create a remote repo, e.g., on GitHub (**Registration needed**)
+* You first need to **create a remote repo**, e.g., on GitHub (Registration needed)
 
 
 <img src="https://github.com/fmsabatini/ReproducibleWorkflow/blob/main/pics/Fig5_CreateRepo2.png?raw=true" alt="branch"  class="center" style="height: 70%">
@@ -637,7 +637,7 @@ git branch -M main
 git push -u origin main
 ```
 
-* in your Rstudio termina, go to the folder of your repository, and type the instructions above 
+* in your Rstudio terminal, go to the folder of your repository, and type the instructions above 
 
 </div>
 </div>
@@ -645,7 +645,7 @@ git push -u origin main
 
 --- 
 
-# Push and Pull
+# Push and Pull (1)
 
 
 <style>
@@ -660,6 +660,39 @@ img {
 <br>
 
 ## git pull  ==  git fetch + git merge
+
+
+--- 
+
+# Push and Pull (2)
+
+- ## **Push**
+  - I send all my local commits to the Remote Repositories
+
+<br>
+
+- ## **Pull** 
+  - Somebody made a change in the Remote Repository and I need to sync my local Repository  
+
+<br>
+
+- ## **Fetch** 
+  - I'm not sure what happened in the Remote. I check for updates, without integrating them in my Working Directory
+
+<br>
+
+
+--- 
+
+# Push and Pull (3)
+
+Add a Readme to your Remote Repository and pull it to your local Repository
+
+<img src="https://github.com/fmsabatini/ReproducibleWorkflow/blob/main/pics/Fig7_CreateReadme.png?raw=true" alt="branch"  class="center" style="height: 70%">
+<br>
+
+
+
 
 ---
 
@@ -678,6 +711,12 @@ img {
 ---
 
 # Pull requests
+
+
+
+---
+
+# Don't Blame me!
 
 
 
