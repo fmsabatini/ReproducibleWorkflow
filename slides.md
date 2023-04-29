@@ -730,17 +730,121 @@ git push
 
 ---
 
-# Clone and Fork
+# Working directly in Github
+
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+- Go to our BiomeLab internal website: https://github.com/fmsabatini/BIOME_LabWiki  
+- Edit the file *Members.md* with your personal data.  
+- If you're already listed there, make sure that your duties are properly described in the file *LabTasks.md*
+
+
+<img src="https://github.com/fmsabatini/ReproducibleWorkflow/blob/main/pics/Fig10_BiomeLab.png?raw=true" alt="branch"  class="center" style="height: 70%">
+
+
+---
+
+# Don't Blame me!
+
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+<img src="https://github.com/fmsabatini/ReproducibleWorkflow/blob/main/pics/Fig9_Blame.png?raw=true" alt="branch"  class="center" style="height: 90%">
+
+
+---
+
+# Issues
+
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+In collaborative project, or public project, one can open an **Issue** to flag some unexpected behaviour of the code (bugs) or other kind of problems. 
+
+<div class="grid grid-cols-2 gap-4">
+
+<div>
+<img src="https://github.com/fmsabatini/ReproducibleWorkflow/blob/main/pics/Fig8_Essai.png?raw=true" alt="branch"  class="center" style="height: 100%">
+</div>
+
+<div>
+
+See for instance my repository:
+
+https://github.com/fmsabatini/MyFancyRepo
+
+It contains an essai on plant biodiversity, which is...improvable. 
+
+Take a look and **open an issue** to flag one of the many problems contained in my essai
+
+</div>
+</div>
+
+
+---
+
+# Clone and Fork (1)
+
+
+<div class="grid grid-cols-2 gap-4">
+<div>
+
+<img src="https://www.minifiguren.com/media/image/product/7305/lg/custom-minifigur-clone-trooper-pilot-dark-red.jpg" alt="branch"  class="center" style="height: 80%">
+
+</div>
+<div>
 
 ## Clone 
 Create a **local copy** of any repository on GitHub that you have access to 
 - If you have write permissions, you can sync between the local and remote locations. Any changes you push to GitHub will affect the original repository.
 - If you clone a repository that you do not have write access to, GitHub  will prompt you to create a **fork** automatically. 
 
+
+</div>
+</div>
+
+
+---
+
+# Clone and Fork (2)
+
+
+<div class="grid grid-cols-2 gap-4">
+<div>
+
+<img src="https://www.mtg-forum.de/db/picture.php?utf8=1&lng=es&card=Fork&set=PRM&collector_number=207&language_code=en" alt="branch"  class="center" style="height: 70%">
+
+</div>
+<div>
+
 ## Fork
 
 To make changes without affecting the original project, you can create **a separate copy** by forking the repository. 
 - You can create a **pull request** to propose that maintainers incorporate the changes in your fork into the original upstream repository. 
+
+</div>
+</div>
+
+
+
+
+
 
 ---
 
@@ -789,6 +893,8 @@ Note how, after forking **MyFancyRepo**, you are redirected to the url *github.c
 
 <br><br>
 
+By writing *fixes #1* you can link your pull request to a specific issue. [Learn more](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue)
+
 <v-click>
 
 Also, note how the two paragraphs are organized. 
@@ -796,20 +902,6 @@ The first has **One Lemma per line** , the second has the whole paragraph withou
 
 </v-click>
 
-
----
-
-# Don't Blame me!
-
-<style>
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-</style>
-
-<img src="https://github.com/fmsabatini/ReproducibleWorkflow/blob/main/pics/Fig9_Blame.png?raw=true" alt="branch"  class="center" style="height: 90%">
 
 
 
@@ -844,7 +936,7 @@ https://git-scm.com/book/en/v2
 
 ---
 
-# Time for some cats
+# Thursday: cats
 
 <style>
 img {
