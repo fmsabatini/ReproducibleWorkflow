@@ -775,10 +775,27 @@ img {
 }
 </style>
 
-In collaborative project, or public project, one can open an **Issue** to flag some unexpected behaviour of the code (bugs) or other kind of problems. 
+In collaborative projects, or public project, one can open an **Issue** to flag some unexpected behaviour of the code (bugs) or other kind of problems. 
 
 <img src="https://github.com/fmsabatini/ReproducibleWorkflow/blob/main/pics/Fig11_Issues.png?raw=true" alt="branch"  class="center" style="height: 80%">
 
+
+
+---
+
+# Projects and Tasks
+
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+You can also start **Projects** linked to your repository(ies), where you can assign tasks, responsible people, and timelines. These tasks can be cross-linked to issues, and commits, structuring your collaborative projects in a flexible and transparent manner 
+
+<img src="https://github.com/fmsabatini/ReproducibleWorkflow/blob/main/pics/Fig12_Projects.png?raw=true" alt="branch"  class="center" style="height: 70%">
 
 ---
 
@@ -880,10 +897,6 @@ The first has **One Lemma per line** , the second has the whole paragraph withou
 
 
 
-
----
-
-# Projects and Tasks
 
 
 
