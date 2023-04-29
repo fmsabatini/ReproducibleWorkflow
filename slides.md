@@ -777,24 +777,7 @@ img {
 
 In collaborative project, or public project, one can open an **Issue** to flag some unexpected behaviour of the code (bugs) or other kind of problems. 
 
-<div class="grid grid-cols-2 gap-4">
-
-<div>
-<img src="https://github.com/fmsabatini/ReproducibleWorkflow/blob/main/pics/Fig8_Essai.png?raw=true" alt="branch"  class="center" style="height: 100%">
-</div>
-
-<div>
-
-See for instance my repository:
-
-https://github.com/fmsabatini/MyFancyRepo
-
-It contains an essai on plant biodiversity, which is...improvable. 
-
-Take a look and **open an issue** to flag one of the many problems contained in my essai
-
-</div>
-</div>
+<img src="https://github.com/fmsabatini/ReproducibleWorkflow/blob/main/pics/Fig11_Issues.png?raw=true" alt="branch"  class="center" style="height: 80%">
 
 
 ---
@@ -848,7 +831,7 @@ To make changes without affecting the original project, you can create **a separ
 
 ---
 
-# Issues
+# Clone and Fork (3)
 
 <style>
 img {
@@ -858,26 +841,11 @@ img {
 }
 </style>
 
-In collaborative project, or public project, one can open an **Issue** to flag some unexpected behaviour of the code (bugs) or other kind of problems. 
+See for instance my repository: https://github.com/fmsabatini/MyFancyRepo  
+It contains an essai on plant biodiversity, which is...improvable  
+You could open an issue to flag mistakes... or you could **Fork it**
 
-<div class="grid grid-cols-2 gap-4">
-
-<div>
-<img src="https://github.com/fmsabatini/ReproducibleWorkflow/blob/main/pics/Fig8_Essai.png?raw=true" alt="branch"  class="center" style="height: 100%">
-</div>
-
-<div>
-
-See for instance my repository:
-
-https://github.com/fmsabatini/MyFancyRepo
-
-It contains an essai on plant biodiversity, which is...improvable. 
-
-Take a look and **open an issue** to flag one of the many problems contained in my essai
-
-</div>
-</div>
+<img src="https://github.com/fmsabatini/ReproducibleWorkflow/blob/main/pics/Fig8_Essai.png?raw=true" alt="branch"  class="center" style="height: 75%">
 
 ---
 
@@ -886,14 +854,21 @@ Take a look and **open an issue** to flag one of the many problems contained in 
 Sometimes it's easier to fix the problem directly, rather than explaining the problem to the mantainer of the code. **Pull requests** come to our help here:
 
 - Fork *MyFancyRepo*
-- Edit my Essai (directly in Github)
+- Edit my Essai (directly in Github) and corret 1/2 typos
 - Send a Pull request to the original developer
+
+<v-click>
 
 Note how, after forking **MyFancyRepo**, you are redirected to the url *github.com/YOURNAME/MyFancyRepo*. This is now a mirror or MyFancyRepo, which is not automatically synced with the original one
 
-<br><br>
+</v-click>
 
-By writing *fixes #1* you can link your pull request to a specific issue. [Learn more](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue)
+
+<v-click>
+
+By writing *fixes #1* in your pull request message you can link your pull request (or commit!) to a specific issue. [Learn more](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue)
+
+</v-click>
 
 <v-click>
 
