@@ -785,27 +785,31 @@ Sometimes it's easier to fix the problem directly, rather than explaining the pr
 - Edit my Essai (directly in Github)
 - Send a Pull request to the original developer
 
-Note how, after forking *MyFancyRepo*, you are redirected to the url github.com/YOURNAME/MyFancyRepo. This is now a mirror or MyFancyRepo, which is not automatically synced with the original one
+Note how, after forking **MyFancyRepo**, you are redirected to the url *github.com/YOURNAME/MyFancyRepo*. This is now a mirror or MyFancyRepo, which is not automatically synced with the original one
 
+<br><br>
 
 <v-click>
 
-<br>
 Also, note how the two paragraphs are organized. 
 The first has **One Lemma per line** , the second has the whole paragraph without any breaks. See how they are rendered in the md. *What is the advantage of either approach?*
 
-
 </v-click>
-
-
-
-
 
 
 ---
 
 # Don't Blame me!
 
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+<img src="https://github.com/fmsabatini/ReproducibleWorkflow/blob/main/pics/Fig9_Blame.png?raw=true" alt="branch"  class="center" style="height: 90%">
 
 
 
@@ -813,7 +817,6 @@ The first has **One Lemma per line** , the second has the whole paragraph withou
 ---
 
 # Projects and Tasks
-
 
 
 
