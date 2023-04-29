@@ -686,26 +686,74 @@ img {
 
 # Push and Pull (3)
 
-Add a Readme to your Remote Repository and pull it to your local Repository
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
 
-<img src="https://github.com/fmsabatini/ReproducibleWorkflow/blob/main/pics/Fig7_CreateReadme.png?raw=true" alt="branch"  class="center" style="height: 70%">
+- Add a Readme to your Remote Repository and pull it to your local Repository
+
+<div class="grid grid-cols-2 gap-4">
+
+<div>
+<br>
+<img src="https://github.com/fmsabatini/ReproducibleWorkflow/blob/main/pics/Fig7_CreateReadme.png?raw=true" alt="branch"  class="center" style="height: 93%">
+</div>
+
+<div>
 <br>
 
+```bash
+git pull
+git lol
 
+#or.. in alternative
+git fetch
+git lol
+git merge
+```
+
+- Modify your readme locally (with notepad or any similar text editors) and push the changes to the remote
+
+
+```bash
+git add Readme.md
+git commit -m "Modified Readme"
+git push
+```
+</div>
+</div>
 
 
 ---
 
 # Clone and Fork
 
+## Clone 
+Create a **local copy** of any repository on GitHub that you have access to 
+- If you have write permissions, you can sync between the local and remote locations. Any changes you push to GitHub will affect the original repository.
+- If you clone a repository that you do not have write access to, GitHub  will prompt you to create a **fork** automatically. 
 
+## Fork
 
+To make changes without affecting the original project, you can create **a separate copy** by forking the repository. 
+- You can create a **pull request** to propose that maintainers incorporate the changes in your fork into the original upstream repository. 
 
 ---
 
 # Issues
 
+In collaborative project, or public project, one can open an **Issue** to flag some unexpected behaviour of the code (bug) or other kind of problems. 
 
+See for instance my repository:
+https://github.com/fmsabatini/MyFancyRepo/tree/main
+
+It contains an essai on plant biodiversity, which is...improvable. 
+
+Take a look and open an issue to flag one of the many problems contained in my essai
 
 
 ---
