@@ -746,19 +746,59 @@ To make changes without affecting the original project, you can create **a separ
 
 # Issues
 
-In collaborative project, or public project, one can open an **Issue** to flag some unexpected behaviour of the code (bug) or other kind of problems. 
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+In collaborative project, or public project, one can open an **Issue** to flag some unexpected behaviour of the code (bugs) or other kind of problems. 
+
+<div class="grid grid-cols-2 gap-4">
+
+<div>
+<img src="https://github.com/fmsabatini/ReproducibleWorkflow/blob/main/pics/Fig8_Essai.png?raw=true" alt="branch"  class="center" style="height: 100%">
+</div>
+
+<div>
 
 See for instance my repository:
-https://github.com/fmsabatini/MyFancyRepo/tree/main
+
+https://github.com/fmsabatini/MyFancyRepo
 
 It contains an essai on plant biodiversity, which is...improvable. 
 
-Take a look and open an issue to flag one of the many problems contained in my essai
+Take a look and **open an issue** to flag one of the many problems contained in my essai
 
+</div>
+</div>
 
 ---
 
 # Pull requests
+
+Sometimes it's easier to fix the problem directly, rather than explaining the problem to the mantainer of the code. **Pull requests** come to our help here:
+
+- Fork *MyFancyRepo*
+- Edit my Essai (directly in Github)
+- Send a Pull request to the original developer
+
+Note how, after forking *MyFancyRepo*, you are redirected to the url github.com/YOURNAME/MyFancyRepo. This is now a mirror or MyFancyRepo, which is not automatically synced with the original one
+
+
+<v-click>
+
+<br>
+Also, note how the two paragraphs are organized. 
+The first has **One Lemma per line** , the second has the whole paragraph without any breaks. See how they are rendered in the md. *What is the advantage of either approach?*
+
+
+</v-click>
+
+
+
 
 
 
