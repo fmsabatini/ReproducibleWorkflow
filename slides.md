@@ -355,8 +355,37 @@ git config --global alias.lol 'log --graph --decorate --oneline --all'
 
 
 # WINDOWS ONLY: let git handle line endings
-git config --global core.autocrlf true
+# git config --global core.autocrlf true
 ```
+
+
+---
+
+# (Aside) - Organize your working directory
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+<div class="grid grid-cols-2 gap-4">
+<div>
+
+<a href="https://www.britishecologicalsociety.org/wp-content/uploads/2019/06/BES-Guide-Reproducible-Code-2019.pdf?utm_source=web&utm_medium=web&utm_campaign=better_science"><img src="https://www.britishecologicalsociety.org//wp-content/uploads/2019/11/code-thumb.jpg" alt="DataManagement"  class="center" style="height: 100%"></a>
+
+[A Guide to Reproducible Code in EcoEvo](https://www.britishecologicalsociety.org/wp-content/uploads/2019/06/BES-Guide-Reproducible-Code-2019.pdf?utm_source=web&utm_medium=web&utm_campaign=better_science)
+<br> 
+</div>
+
+<div>
+
+
+
+</div>
+</div>
+
 
 
 ---
@@ -395,11 +424,13 @@ You have just created your first git (local) repository.
 
 </div>
 
+
+
 ---
 
-# Let's Create and Sync our first RMarkdown file
+# Let's Add a file to our Repo
 
-* Create a Markdown file, and save it as _myproject.Rmd_
+* For instance you can create a Markdown file, and save it as _myproject.Rmd_
 
 <div class="grid grid-cols-2 gap-4">
 <div>
@@ -486,80 +517,6 @@ img {
 </style>
 <img src="https://github.com/fmsabatini/ReproducibleWorkflow/blob/ecdf6cb5da5c90e2c18cf955973118ff46f29a85/pics/Fig3.png?raw=true" alt="Rmarkdown2" style="height: 90%">
 
-
----
-
-# Branching (3)
-
-<style>
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-</style>
-<img src="https://www.nobledesktop.com/image/gitresources/git-branches-merge.png" alt="branch"  class="center" style="width: 500px">
-<br>
-
-<div class="grid grid-cols-2 gap-4">
-<v-click>
-<div>
-
-
-```bash
-# create new branch called 'Alternative'
-git branch Alternative
-# move the pointer to the new branch
-git checkout Alternative
-```
-
-* All the commits done in the new branch, won't affect the master branch. 
-
-</div>
-</v-click>
-
-<v-click>
-<div> 
-
-```bash
-# move the pointer to the master
-git checkout master
-# merge the 'alternative branch' onto the master
-git merge Alternative
-```
-
-* Once the new branch is ready, you can merge it with the master
-
-</div>
-</v-click>
-
-</div>
-
-
-
----
-
-# 14 Commands to rule them all
-
-```bash {1|1-9|1-13|all}
-git help --all
-
-git init            #Create an empty Git repository or reinitialize an existing one
-git status          #Show the working tree status
-git add             #Add file contents to the index
-git commit          #Record changes to the repository
-git log             #Show commit logs
-git diff            #Show changes between commits, commit and working tree, etc
-git checkout        #Switch branches or restore working tree files
-
-git branch          #List, create, or delete branches
-git merge           #Join two or more development histories together
-
-git remote          #Manage set of tracked repositories
-git push            #Update remote refs along with associated objects
-git pull            #Fetch from and integrate with another repository or a local branch
-git fetch           #Download objects and refs from another repository
-```
 
 ---
 
@@ -726,6 +683,112 @@ git push
 ```
 </div>
 </div>
+
+
+--- 
+
+# Public or Private? Add a license!
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+You can choose, [whether your repo should be public or private](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/setting-repository-visibility) (and with whom to share):
+* Public repositories are accessible to everyone on the internet.
+* Private repositories are only accessible to you, people you explicitly share access with, and, for organization repositories, certain organization members (**some features won't be available**)
+<br>
+
+If you choose to go public (often good), don't forget to [choose a license](https://choosealicense.com/):
+
+<img src="https://docs.github.com/assets/cb-80820/mw-1440/images/help/repository/upload-files-button.webp" alt="license"  class="center" style="width: 300px">
+<br>
+
+<img src="https://docs.github.com/assets/cb-35140/mw-1440/images/help/repository/license-tool.webp" alt="license2"  class="center" style="width: 300px">
+<br>
+
+
+
+
+
+
+---
+
+# Branching (3)
+
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+<img src="https://www.nobledesktop.com/image/gitresources/git-branches-merge.png" alt="branch"  class="center" style="width: 500px">
+<br>
+
+<div class="grid grid-cols-2 gap-4">
+<v-click>
+<div>
+
+
+```bash
+# create new branch called 'Alternative'
+git branch Alternative
+# move the pointer to the new branch
+git checkout Alternative
+```
+
+* All the commits done in the new branch, won't affect the master branch. 
+
+</div>
+</v-click>
+
+<v-click>
+<div> 
+
+```bash
+# move the pointer to the master
+git checkout master
+# merge the 'alternative branch' onto the master
+git merge Alternative
+```
+
+* Once the new branch is ready, you can merge it with the master
+
+</div>
+</v-click>
+
+</div>
+
+
+
+---
+
+# 14 Commands to rule them all
+
+```bash {1|1-9|1-13|all}
+git help --all
+
+git init            #Create an empty Git repository or reinitialize an existing one
+git status          #Show the working tree status
+git add             #Add file contents to the index
+git commit          #Record changes to the repository
+git log             #Show commit logs
+git diff            #Show changes between commits, commit and working tree, etc
+git checkout        #Switch branches or restore working tree files
+
+git branch          #List, create, or delete branches
+git merge           #Join two or more development histories together
+
+git remote          #Manage set of tracked repositories
+git push            #Update remote refs along with associated objects
+git pull            #Fetch from and integrate with another repository or a local branch
+git fetch           #Download objects and refs from another repository
+```
+
+
 
 
 ---
