@@ -6,7 +6,7 @@ theme: dracula
 
 # Reproducible workflows in research practice  
 ## A gift to your future self  
-Freiburg, May 2, 2023  
+Bologna, May 2, 2023  
 <br>
 Dr. Francesco Maria Sabatini  
 francescomaria.sabatini@unibo.it  
@@ -292,7 +292,78 @@ img {
 
 ---
 
-# Install Git
+# Working directly in Github
+
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+- Go to our BiomeLab internal website: https://github.com/fmsabatini/BIOME_LabWiki  
+- Edit the file *Members.md* with your personal data.  
+- If you're already listed there, make sure that your duties are properly described in the file *LabTasks.md*
+
+
+<img src="https://github.com/fmsabatini/ReproducibleWorkflow/blob/main/pics/Fig10_BiomeLab.png?raw=true" alt="branch"  class="center" style="height: 70%">
+
+
+---
+
+# Don't Blame me!
+
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+<img src="https://github.com/fmsabatini/ReproducibleWorkflow/blob/main/pics/Fig9_Blame.png?raw=true" alt="branch"  class="center" style="height: 90%">
+
+
+---
+
+# Issues
+
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+In collaborative projects, or public project, one can open an **Issue** to flag some unexpected behaviour of the code (bugs) or other kind of problems. 
+
+<img src="https://github.com/fmsabatini/ReproducibleWorkflow/blob/main/pics/Fig11_Issues.png?raw=true" alt="branch"  class="center" style="height: 80%">
+
+
+
+---
+
+# Projects and Tasks
+
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+You can also start **Projects** linked to your repository(ies), where you can assign tasks, responsible people, and timelines. These tasks can be cross-linked to issues and commits, structuring your collaborative projects in a flexible and transparent manner 
+
+<img src="https://github.com/fmsabatini/ReproducibleWorkflow/blob/main/pics/Fig12_Projects.png?raw=true" alt="branch"  class="center" style="height: 70%">
+
+
+
+---
+
+# Time for empowerment - Install Git
 
 * Check if Git is already installed on your PC
 
@@ -345,8 +416,8 @@ git help [command]
 <br>
 
 ```bash {1-2|all}
-git config --global user.name "Ralf.Mueller"
-git config --global user.email "ralf.mueller@uni-freiburg.de"
+git config --global user.name "Alessio.Chiarissimo"
+git config --global user.email "alessio.chiarissimo@unibo.it"
 
 
 # configure aliases
@@ -359,40 +430,12 @@ git config --global alias.lol 'log --graph --decorate --oneline --all'
 ```
 
 
----
-
-# (Aside) - Organize your working directory
-<style>
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-</style>
-
-<div class="grid grid-cols-2 gap-4">
-<div>
-
-<a href="https://www.britishecologicalsociety.org/wp-content/uploads/2019/06/BES-Guide-Reproducible-Code-2019.pdf?utm_source=web&utm_medium=web&utm_campaign=better_science"><img src="https://www.britishecologicalsociety.org//wp-content/uploads/2019/11/code-thumb.jpg" alt="DataManagement"  class="center" style="height: 100%"></a>
-
-[A Guide to Reproducible Code in EcoEvo](https://www.britishecologicalsociety.org/wp-content/uploads/2019/06/BES-Guide-Reproducible-Code-2019.pdf?utm_source=web&utm_medium=web&utm_campaign=better_science)
-<br> 
-</div>
-
-<div>
-
-
-
-</div>
-</div>
-
-
 
 ---
 
 # Time to create your first repository
 
-* Go to the terminal in Rstudio
+* Go to the terminal in RStudio
 
 <br>
 
@@ -424,6 +467,42 @@ You have just created your first git (local) repository.
 
 </div>
 
+---
+
+# (Aside) - Organize your working directory
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+<div class="grid grid-cols-2 gap-4">
+<div>
+<br>
+<img src="https://github.com/fmsabatini/ReproducibleWorkflow/raw/main/pics/Fig13_FolderStructure.png" alt="Add" style="height: 40%">
+
+
+**Be consistent** – when developing a naming scheme for folders it is important
+that once you have decided on a method, you stick to it.  
+
+**Structure folders hierarchically**. Start with a limited number of folders for the
+broader topics, and create more specific folders within these as and when they
+are required.
+
+</div>
+
+
+<div>
+
+<a href="https://www.britishecologicalsociety.org/wp-content/uploads/2019/06/BES-Guide-Reproducible-Code-2019.pdf?utm_source=web&utm_medium=web&utm_campaign=better_science"><img src="https://www.britishecologicalsociety.org//wp-content/uploads/2019/11/code-thumb.jpg" alt="DataManagement"  class="center" style="height: 100%"></a>
+
+[A Guide to Reproducible Code in EcoEvo](https://www.britishecologicalsociety.org/wp-content/uploads/2019/06/BES-Guide-Reproducible-Code-2019.pdf?utm_source=web&utm_medium=web&utm_campaign=better_science)
+<br> 
+</div>
+
+</div>
 
 
 ---
@@ -520,6 +599,28 @@ img {
 
 ---
 
+# (Git-iquette) Commit code, not data
+
+<br>
+
+## *Never ever touch raw data. Store them permanently, and use scripts to produce derived, clean datasets for analyses*
+– Francisco Rodríguez-Sánchez, Estación Biológica de Doñana (CSIC)
+
+<br>
+
+<v-click>
+
+Git is most efficient with text-based files. Data are not conveniently version controlled in GIT. Besides GitHub has limited storage space available (especially for private projects)
+- 100 MB per file, 500 MB per private repository (2 GB for paid accounts). 
+- 100 GB for public repositories. 
+- Larger files (up to 2 GB) can be attached to releases
+
+Data version control systems do exist, but are not treated here
+
+</v-click>
+
+---
+
 # Remotes (1)
 
 <style>
@@ -538,6 +639,9 @@ A remote in Git is a common repository that all team members use to exchange the
 
 <img src="https://github.com/fmsabatini/ReproducibleWorkflow/blob/main/pics/Fig4_CreateRepo.png?raw=true" alt="branch"  class="center" style="height: 70%">
 <br>
+
+
+
 
 ---
 
@@ -791,74 +895,6 @@ git fetch           #Download objects and refs from another repository
 
 
 
----
-
-# Working directly in Github
-
-<style>
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-</style>
-
-- Go to our BiomeLab internal website: https://github.com/fmsabatini/BIOME_LabWiki  
-- Edit the file *Members.md* with your personal data.  
-- If you're already listed there, make sure that your duties are properly described in the file *LabTasks.md*
-
-
-<img src="https://github.com/fmsabatini/ReproducibleWorkflow/blob/main/pics/Fig10_BiomeLab.png?raw=true" alt="branch"  class="center" style="height: 70%">
-
-
----
-
-# Don't Blame me!
-
-<style>
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-</style>
-
-<img src="https://github.com/fmsabatini/ReproducibleWorkflow/blob/main/pics/Fig9_Blame.png?raw=true" alt="branch"  class="center" style="height: 90%">
-
-
----
-
-# Issues
-
-<style>
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-</style>
-
-In collaborative projects, or public project, one can open an **Issue** to flag some unexpected behaviour of the code (bugs) or other kind of problems. 
-
-<img src="https://github.com/fmsabatini/ReproducibleWorkflow/blob/main/pics/Fig11_Issues.png?raw=true" alt="branch"  class="center" style="height: 80%">
-
-
-
----
-
-# Projects and Tasks
-
-<style>
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-</style>
-
-You can also start **Projects** linked to your repository(ies), where you can assign tasks, responsible people, and timelines. These tasks can be cross-linked to issues, and commits, structuring your collaborative projects in a flexible and transparent manner 
-
-<img src="https://github.com/fmsabatini/ReproducibleWorkflow/blob/main/pics/Fig12_Projects.png?raw=true" alt="branch"  class="center" style="height: 70%">
 
 ---
 
@@ -953,15 +989,28 @@ By writing *fixes #1* in your pull request message you can link your pull reques
 <v-click>
 
 Also, note how the two paragraphs are organized. 
-The first has **One Lemma per line** , the second has the whole paragraph without any breaks. See how they are rendered in the md. *What is the advantage of either approach?*
+The first has **One Lemma per line**, the second has the whole paragraph without any breaks. See how they are rendered in the md. *What is the advantage of either approach?*
 
 </v-click>
 
 
 
+--- 
+
+# Not Yet Convinced?
+
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
 
 
+<img src="https://besjournals.onlinelibrary.wiley.com/cms/asset/69fdcacb-a4a0-449e-b1c2-fdc59f2dfed1/mee314108-fig-0002-m.jpg" alt="12OptionsGitHub" style="height: 80%">
 
+[Pereira Braga et al. 2023 - *Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution*. MEE](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.14108#mee314108-bib-0049)
 
 ---
 
@@ -983,6 +1032,7 @@ https://git-scm.com/book/en/v2
 
 </div>
 </div>
+
 
 
 ---
