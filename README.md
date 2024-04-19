@@ -5,7 +5,7 @@ This presentation was prepared by [@fmsabatini](https://github.com/fmsabatini/) 
 Go to the **[presentation](https://fmsabatini.github.io/ReproducibleWorkflow/1)**
 
 **Date**  
-- Friday April 19, 2024 (14:00 - 16:00) - IAVS Ecoinformatics Group
+- Friday April 19, 2024 (14:00 - 16:00) - IAVS Ecoinformatics Group - 
 
 **Location**  
 - [Online](https://us06web.zoom.us/j/88272036017?pwd=ymGdk6tmr9nQMDZabSgsPQdDd5wm6g.1)
