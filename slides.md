@@ -288,79 +288,7 @@ img {
 </style>
 <img src="https://www.nobledesktop.com/image/gitresources/git-branches-merge.png" alt="branch"  class="center" style="width: 90%">
 <br>
-
-
----
-
-<!-- 
-# Working directly in Github
-
-<style>
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-</style>
-
-- Go to our BiomeLab internal website: https://github.com/fmsabatini/BIOME_LabWiki  
-- Edit the file *Members.md* with your personal data.  
-- If you're already listed there, make sure that your duties are properly described in the file *LabTasks.md*
-
-
-<img src="https://github.com/fmsabatini/ReproducibleWorkflow/blob/main/pics/Fig10_BiomeLab.png?raw=true" alt="branch"  class="center" style="height: 70%">
-
-
----
-
-# Don't Blame me!
-
-<style>
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-</style>
-
-<img src="https://github.com/fmsabatini/ReproducibleWorkflow/blob/main/pics/Fig9_Blame.png?raw=true" alt="branch"  class="center" style="height: 90%">
-
-
----
-
-# Issues
-
-<style>
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-</style>
-
-In collaborative projects, or public project, one can open an **Issue** to flag some unexpected behaviour of the code (bugs) or other kind of problems. 
-
-<img src="https://github.com/fmsabatini/ReproducibleWorkflow/blob/main/pics/Fig11_Issues.png?raw=true" alt="branch"  class="center" style="height: 80%">
-
-
-
----
-
-# Projects and Tasks
-
-<style>
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-</style>
-
-You can also start **Projects** linked to your repository(ies), where you can assign tasks, responsible people, and timelines. These tasks can be cross-linked to issues and commits, structuring your collaborative projects in a flexible and transparent manner 
-
-<img src="https://github.com/fmsabatini/ReproducibleWorkflow/blob/main/pics/Fig12_Projects.png?raw=true" alt="branch"  class="center" style="height: 70%">
-
--->
+ 
 
 ---
 
@@ -1038,7 +966,7 @@ https://git-scm.com/book/en/v2
 
 ---
 
-# Thursday: cats
+# Next: cats
 
 <style>
 img {
@@ -1054,4 +982,81 @@ img {
 * Time for the second course of the menu: RMarkdown. Warning: There will be many cats
 
 ## https://github.com/fmsabatini/KateRMarkdown
+
+
+---
+
+# Extra Slides
+
+
+---
+
+
+# Working directly in Github
+
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+- Go to our BiomeLab internal website: https://github.com/fmsabatini/BIOME_LabWiki  
+- Edit the file *Members.md* with your personal data.  
+- If you're already listed there, make sure that your duties are properly described in the file *LabTasks.md*
+
+
+<img src="https://github.com/fmsabatini/ReproducibleWorkflow/blob/main/pics/Fig10_BiomeLab.png?raw=true" alt="branch"  class="center" style="height: 70%">
+
+
+---
+
+# Don't Blame me!
+
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+<img src="https://github.com/fmsabatini/ReproducibleWorkflow/blob/main/pics/Fig9_Blame.png?raw=true" alt="branch"  class="center" style="height: 90%">
+
+
+---
+
+# Issues
+
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+In collaborative projects, or public project, one can open an **Issue** to flag some unexpected behaviour of the code (bugs) or other kind of problems. 
+
+<img src="https://github.com/fmsabatini/ReproducibleWorkflow/blob/main/pics/Fig11_Issues.png?raw=true" alt="branch"  class="center" style="height: 80%">
+
+
+
+---
+
+# Projects and Tasks
+
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+You can also start **Projects** linked to your repository(ies), where you can assign tasks, responsible people, and timelines. These tasks can be cross-linked to issues and commits, structuring your collaborative projects in a flexible and transparent manner 
+
+<img src="https://github.com/fmsabatini/ReproducibleWorkflow/blob/main/pics/Fig12_Projects.png?raw=true" alt="branch"  class="center" style="height: 70%">
+
 

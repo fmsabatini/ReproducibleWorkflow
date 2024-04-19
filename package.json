@@ -1,5 +1,6 @@
 {
-  "name": "francescotest",
+  "name": "reproducible",
+  "type": "module",
   "private": true,
   "scripts": {
     "build": "slidev build",
@@ -7,13 +8,10 @@
     "export": "slidev export"
   },
   "dependencies": {
-    "@slidev/cli": "^0.40.2",
-    "@slidev/theme-default": "*",
-    "@slidev/theme-seriph": "*",
-    "slidev-theme-dracula": "^0.1.0"
-  },
-  "devDependencies": {
-    "@iconify-json/twemoji": "^1.1.10",
-    "@iconify-json/uim": "^1.1.5"
+    "@slidev/cli": "^0.49.0-beta.4",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "slidev-theme-dracula": "^0.2.0",
+    "vue": "^3.4.22"
   }
 }
