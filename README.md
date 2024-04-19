@@ -5,14 +5,13 @@ This presentation was prepared by [@fmsabatini](https://github.com/fmsabatini/) 
 Go to the **[presentation](https://fmsabatini.github.io/ReproducibleWorkflow/1)**
 
 **Date**  
-Tuesday May 2, 2023 (14:00 - 16:00)  
-Thursday May 4, 2023 (10:00 - 12:00)
+- Friday April 19, 2024 (14:00 - 16:00) - IAVS Ecoinformatics Group
 
 **Location**  
-Aula D - Orto Botanico di Bologna 
+- [Online](https://us06web.zoom.us/j/88272036017?pwd=ymGdk6tmr9nQMDZabSgsPQdDd5wm6g.1)
 
 **Course Language**  
-Italian + English  
+English  
 
 **Target Group**  
 Doctoral Researchers  
@@ -28,4 +27,5 @@ Assistant Professor at University of Bologna, Italy.
 Vignette to [KateRMarkdown](https://github.com/fmsabatini/KateRMarkdown/)
 
 **Previous editions of this class:**  
-- Thursday March 30, 2023 (10:00 - 12:00 AM) - [CONFOBI training network](https://confobi.uni-freiburg.de/en) at the University of Freiburg. 
+- Thursday March 30, 2023 (10:00 - 12:00 AM) - [CONFOBI training network](https://confobi.uni-freiburg.de/en) at the University of Freiburg.
+- Tuesday May 2, 2023 (14:00 - 16:00) & Thursday May 4, 2023 (10:00 - 12:00) at BIOME Lab - Alma Mater Studiorum University of Bologna
