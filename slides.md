@@ -6,7 +6,7 @@ theme: dracula
 
 # Reproducible workflows in research practice  
 ## A gift to your future self  
-Bologna, May 2, 2023  
+Bologna, Apr 19, 2024  
 <br>
 Dr. Francesco Maria Sabatini  
 francescomaria.sabatini@unibo.it  
@@ -292,6 +292,7 @@ img {
 
 ---
 
+<!-- 
 # Working directly in Github
 
 <style>
@@ -359,7 +360,7 @@ You can also start **Projects** linked to your repository(ies), where you can as
 
 <img src="https://github.com/fmsabatini/ReproducibleWorkflow/blob/main/pics/Fig12_Projects.png?raw=true" alt="branch"  class="center" style="height: 70%">
 
-
+-->
 
 ---
 
@@ -1008,7 +1009,7 @@ img {
 </style>
 
 
-<img src="https://besjournals.onlinelibrary.wiley.com/cms/asset/69fdcacb-a4a0-449e-b1c2-fdc59f2dfed1/mee314108-fig-0002-m.jpg" alt="12OptionsGitHub" style="height: 80%">
+<img src="https://besjournals.onlinelibrary.wiley.com/cms/asset/ececdda9-a720-4786-a54f-420dba5f162f/mee314108-fig-0002-m.jpg" alt="12OptionsGitHub" style="height: 80%">
 
 [Pereira Braga et al. 2023 - *Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution*. MEE](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.14108#mee314108-bib-0049)
 
