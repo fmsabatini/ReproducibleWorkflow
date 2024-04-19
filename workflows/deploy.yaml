@@ -30,7 +30,7 @@ jobs:
         run: npm install
 
       - name: Build
-        run: npm run build -- --base /ReproducibleWorkflows/
+        run: npm run build -- --base /ReproducibleWorkflow/
 
       - uses: actions/configure-pages@v4
 
